@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>六年級數學扇形面積 Jumping Task 簡報 PDF</title>
+    <style>
+        @page {
+            size: 16in 9in;
+            margin: 0;
+        }
+        :root {
+            --primary: #1a365d;
+            --secondary: #2b6cb0;
+            --accent: #276749;
+            --highlight: #c53030;
+            --bg-light: #f7fafc;
+            --border-color: #cbd5e0;
+            --card-bg: #ffffff;
+            --text-dark: #2d3748;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Microsoft JhengHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        body { background: #ffffff; color: var(--text-dark); margin: 0; padding: 0; }
+        .slide-page {
+            width: 16in;
+            height: 9in;
+            page-break-after: always;
+            padding: 0.6in 0.8in;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .slide-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.35in;
+            border-bottom: 3px solid var(--border-color);
+            padding-bottom: 0.15in;
+        }
+        .slide-title {
+            font-size: 38pt;
+            font-weight: 800;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .slide-badge {
+            font-size: 20pt;
+            font-weight: 700;
+            color: #fff;
+            background: var(--secondary);
+            padding: 6px 24px;
+            border-radius: 30px;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 0.4in;
+            flex: 1;
+            align-items: stretch;
+        }
+        .grid-4 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 0.35in;
+            flex: 1;
+        }
+        .card {
+            background: #fff;
+            border: 2.5px solid var(--border-color);
+            border-radius: 20px;
+            padding: 0.35in;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.03);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-highlight { border-color: var(--secondary); background: #ebf8ff; }
+        .card-green { border-color: var(--accent); background: #f0fff4; }
+        
+        .formula-box {
+            background: #f7fafc;
+            border-left: 6px solid var(--secondary);
+            padding: 12pt 18pt;
+            margin: 14pt 0;
+            font-family: monospace;
+            font-size: 20pt;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        .text-lg { font-size: 20pt; line-height: 1.6; }
+        .text-bold { font-weight: bold; }
+        .color-red { color: var(--highlight); }
+        .color-blue { color: var(--secondary); }
+        .color-green { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+    <!-- Slide 1: Cover -->
+    <div class="slide-page" style="justify-content: center; align-items: center; text-align: center; background: radial-gradient(circle at center, #ebf8ff 0%, #ffffff 70%);">
+        <div style="border: 3px solid var(--secondary); background: #fff; border-radius: 30px; padding: 0.8in 1.2in; box-shadow: 0 16px 40px rgba(43, 108, 176, 0.12);">
+            <span class="slide-badge" style="font-size: 22pt; margin-bottom: 25pt; display: inline-block;">南一版 115-1 六年級數學第六單元</span>
+            <h1 style="font-size: 52pt; color: var(--primary); margin-bottom: 18pt; font-weight: 900;">幾何魔法花窗：四葉草綠地的秘密</h1>
+            <h2 style="font-size: 30pt; color: var(--secondary); margin-bottom: 35pt;">學習共同體 公開課 Jumping Task 伸展跳躍任務</h2>
+            <div style="display: flex; gap: 30px; font-size: 20pt; color: #4a5568; background: #f7fafc; padding: 15pt 35pt; border-radius: 40px; border: 1.5px solid #e2e8f0; justify-content: center;">
+                <span>📅 單元統整第 4/4 節</span>
+                <span>⏱️ 課堂 40 分鐘</span>
+                <span>👥 4人異質協同共學</span>
+                <span>✨ 小正方形分割與對角線葉片</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: Rules -->
+    <div class="slide-page">
+        <div class="slide-header">
+            <div class="slide-title">🤝 課堂約定：營造潤澤與安全的學習場域</div>
+            <div class="slide-badge">學習共同體常規</div>
+        </div>
+        <div class="grid-4">
+            <div class="card card-highlight">
+                <h3 style="color:var(--primary); font-size:26pt; margin-bottom:12pt;">👂 專注傾聽 (Listening)</h3>
+                <p class="text-lg">同伴發言時，身體自然轉向他。用溫和的眼神注視，點頭給予支持，聽清楚同伴的算式與想法。</p>
+            </div>
+            <div class="card card-highlight">
+                <h3 style="color:var(--primary); font-size:26pt; margin-bottom:12pt;">💬 耳語對話 (Whispering)</h3>
+                <p class="text-lg">組內討論請用「小組聽得清楚但鄰組不受干擾」的耳語音量，讓整間教室保持安心沉靜的氛圍。</p>
+            </div>
+            <div class="card card-green">
+                <h3 style="color:var(--accent); font-size:26pt; margin-bottom:12pt;">🙋 勇於說「我不懂」 (Inquiry)</h3>
+                <p class="text-lg">「我不懂」是課堂上最珍貴的禮物！勇敢說出困惑，就是邀請全組夥伴一起把幾何看個明白。</p>
+            </div>
+            <div class="card card-green">
+                <h3 style="color:var(--accent); font-size:26pt; margin-bottom:12pt;">🧩 互惠協同 (Reciprocal)</h3>
+                <p class="text-lg">沒有人是局外人。每位同學都在學習單上記錄想法，透過幾何圖形彼此鷹架、共同頓悟！</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: Warmup -->
+    <div class="slide-page">
+        <div class="slide-header">
+            <div class="slide-title">🌱 第一關：暖身自學 —— 尋找神奇小鑰匙</div>
+            <div class="slide-badge">個人自學 7 分鐘</div>
+        </div>
+        <div class="grid-2">
+            <div class="card">
+                <h3 style="color:var(--primary); font-size:26pt; margin-bottom:12pt;">【自學挑戰任務】</h3>
+                <p class="text-lg">在邊長 <span class="text-bold color-blue">10 公分</span> 的正方形中：</p>
+                <ul style="margin:12pt 0 12pt 30pt; font-size:20pt; line-height:1.6;">
+                    <li>以頂點為圓心、半徑 10cm 畫 1/4 圓扇形。</li>
+                    <li>連接對角線形成等腰直角三角形。</li>
+                </ul>
+                <div class="formula-box">★ 求塗色「小葉片（弓形）」的面積是多少？(π ≈ 3.14)</div>
+                <div style="background:#edf2f7; padding:15pt 20pt; border-radius:14px; font-size:19pt;">
+                    <span class="text-bold">💡 幾何透視想法：</span><br>
+                    小葉片面積 ＝ <span class="color-blue text-bold">1/4 圓扇形</span> － <span class="color-green text-bold">等腰直角三角形</span>
+                </div>
+            </div>
+
+            <div class="card card-green" style="align-items: center; justify-content: center; text-align: center;">
+                <svg width="300" height="300" viewBox="0 0 100 100" style="background:#fff; border:2px solid #a0aec0; border-radius:14px; margin-bottom:20pt;">
+                    <rect x="0" y="0" width="100" height="100" fill="#f7fafc" stroke="#cbd5e0" stroke-width="1.5" />
+                    <path d="M 0 0 L 100 0 A 100 100 0 0 1 0 100 Z" fill="rgba(66, 153, 225, 0.25)" stroke="#3182ce" stroke-width="1.5" />
+                    <polygon points="0,0 100,0 0,100" fill="none" stroke="#e53e3e" stroke-width="1.5" stroke-dasharray="3,3" />
+                    <path d="M 100 0 A 100 100 0 0 1 0 100 Z" fill="#38a169" opacity="0.85" />
+                    <text x="50" y="12" font-size="7" fill="#2d3748" font-weight="bold">10 cm</text>
+                    <text x="4" y="55" font-size="7" fill="#2d3748" font-weight="bold">10 cm</text>
+                    <text x="42" y="58" font-size="8" fill="#ffffff" font-weight="bold">28.5</text>
+                </svg>
+                <div style="font-size:18pt; line-height:1.6; text-align: left; width: 100%;">
+                    <div>1️⃣ <span class="text-bold">1/4 圓扇形</span>：10 × 10 × 3.14 × (1/4) ＝ <span class="color-blue text-bold">78.5</span> (cm²)</div>
+                    <div>2️⃣ <span class="text-bold">直角三角形</span>：10 × 10 ÷ 2 ＝ <span class="color-green text-bold">50</span> (cm²)</div>
+                    <div style="font-size:22pt; margin-top:8pt; padding-top:8pt; border-top:2px dashed #cbd5e0;">
+                        ✨ <span class="text-bold">單一弓形面積</span>：78.5 － 50 ＝ <span class="color-red text-bold">28.5</span> (cm²)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: Jumping Task Launch -->
+    <div class="slide-page">
+        <div class="slide-header">
+            <div class="slide-title">🚀 第二關：Jumping Task 伸展跳躍挑戰</div>
+            <div class="slide-badge">小組共學 15 分鐘</div>
+        </div>
+        <div class="grid-2">
+            <div class="card card-highlight">
+                <h3 style="color:var(--primary); font-size:26pt; margin-bottom:12pt;">🏫 智慧綠能校園景觀設計</h3>
+                <p class="text-lg" style="margin-bottom:14pt;">
+                    學校要在中庭鋪設一塊邊長 <span class="text-bold color-blue">20 公尺</span> 的正方形草坪。設計師將花圃切成 <span class="text-bold color-green">4 個 10m × 10m 的小正方形</span>，在每個小正方形內以頂點為圓心畫半徑 <span class="text-bold">10 公尺</span> 圓弧，向四個角落對角線交織出美麗的「四葉草花瓣綠地」（如右圖綠色區域）。
+                </p>
+                <div class="formula-box color-red" style="font-size:22pt; background:#fff5f5; border-left-color:#e53e3e;">
+                    ★ 伸展挑戰：這 4 片花瓣的總面積是多少平方公尺？
+                </div>
+                <div style="margin-top:14pt; font-size:18pt; color:#4a5568; line-height:1.6;">
+                    <span class="text-bold">💡 小組協同指引：</span><br>
+                    • 仔細看！大正方形被十字線分成了 4 個什麼圖形？<br>
+                    • 每個 10×10 小正方形裡的斜向葉片，跟暖身題有什麼關係？<br>
+                    • 組內動筆畫畫看，算出 4 片花瓣的總面積！
+                </div>
+            </div>
+
+            <div class="card" style="align-items: center; justify-content: center;">
+                <svg width="420" height="420" viewBox="0 0 200 200" style="background:#ffffff; border:2.5px solid #a0aec0; border-radius:14px;">
+                    <rect x="0" y="0" width="200" height="200" fill="#f8fafc" stroke="#1a365d" stroke-width="2.5" />
+                    <line x1="100" y1="0" x2="100" y2="200" stroke="#4a5568" stroke-width="1.8" stroke-dasharray="3,3" />
+                    <line x1="0" y1="100" x2="200" y2="100" stroke="#4a5568" stroke-width="1.8" stroke-dasharray="3,3" />
+                    <line x1="0" y1="0" x2="100" y2="100" stroke="#e53e3e" stroke-width="1.5" stroke-dasharray="2,2" />
+                    <line x1="200" y1="0" x2="100" y2="100" stroke="#e53e3e" stroke-width="1.5" stroke-dasharray="2,2" />
+                    <line x1="0" y1="200" x2="100" y2="100" stroke="#e53e3e" stroke-width="1.5" stroke-dasharray="2,2" />
+                    <line x1="200" y1="200" x2="100" y2="100" stroke="#e53e3e" stroke-width="1.5" stroke-dasharray="2,2" />
+                    <path d="M 0 0 A 100 100 0 0 1 100 100 A 100 100 0 0 1 0 0 Z" fill="#2f855a" stroke="#1c4532" stroke-width="1.5" />
+                    <path d="M 200 0 A 100 100 0 0 1 100 100 A 100 100 0 0 1 200 0 Z" fill="#38a169" stroke="#1c4532" stroke-width="1.5" />
+                    <path d="M 0 200 A 100 100 0 0 1 100 100 A 100 100 0 0 1 0 200 Z" fill="#38a169" stroke="#1c4532" stroke-width="1.5" />
+                    <path d="M 200 200 A 100 100 0 0 1 100 100 A 100 100 0 0 1 200 200 Z" fill="#2f855a" stroke="#1c4532" stroke-width="1.5" />
+                    <circle cx="100" cy="100" r="4.5" fill="#1a365d" />
+                    <text x="50" y="12" font-size="8.5" fill="#1a365d" font-weight="bold" text-anchor="middle">10 m</text>
+                    <text x="150" y="12" font-size="8.5" fill="#1a365d" font-weight="bold" text-anchor="middle">10 m</text>
+                    <text x="6" y="55" font-size="8.5" fill="#1a365d" font-weight="bold">10 m</text>
+                    <text x="6" y="155" font-size="8.5" fill="#1a365d" font-weight="bold">10 m</text>
+                    <text x="100" y="195" font-size="9.5" fill="#2b6cb0" font-weight="bold" text-anchor="middle">正方形邊長 20 m</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: Strategy 1 -->
+    <div class="slide-page">
+        <div class="slide-header">
+            <div class="slide-title">🗣️ 組間互學：策略一 —— 分割小正方形法（最直觀正解）</div>
+            <div class="slide-badge">化繁為簡・經驗遷移</div>
+        </div>
+        <div class="grid-2">
+            <div class="card">
+                <h3 style="color:var(--primary); font-size:26pt; margin-bottom:12pt;">【幾何切割思維】</h3>
+                <p class="text-lg">將 <span class="text-bold">20m × 20m</span> 的大正方形，沿著十字中線切成 <span class="text-bold color-blue">4 個 10m × 10m 的小正方形</span>！</p>
+                <div style="background:#f7fafc; padding:15pt 20pt; border-radius:14px; margin:15pt 0;">
+                    <p class="text-bold" style="font-size:20pt;">🔍 觀察每一個 10×10 小正方形：</p>
+                    <ul style="margin-left:25pt; line-height:1.6; font-size:19pt;">
+                        <li>每個小正方形內部，獨立裝有一整片斜向對角線花瓣！</li>
+                        <li>一整片花瓣剛好由 <span class="color-green text-bold">2 個</span> 暖身題的單葉片組成！</li>
+                    </ul>
+                </div>
+                <div class="formula-box">
+                    單片花瓣面積 ＝ 28.5 × 2 ＝ 57 (m²)
+                </div>
+            </div>
+
+            <div class="card card-green">
+                <h3 style="color:var(--accent); font-size:26pt; margin-bottom:12pt;">【全域算式推導】</h3>
+                <div style="font-size:19pt; line-height:1.7;">
+                    <div>1️⃣ <span class="text-bold">1 片暖身單葉片</span>：10×10×3.14×(1/4) － 10×10÷2 ＝ <span class="text-bold">28.5</span> (m²)</div>
+                    <div>2️⃣ <span class="text-bold">1 片完整花瓣（2片葉片）</span>：28.5 × 2 ＝ <span class="color-blue text-bold">57</span> (m²)</div>
+                    <div>3️⃣ <span class="text-bold">4 個小正方形共有 4 片花瓣</span>：57 × 4 ＝ <span class="color-red text-bold" style="font-size:26pt;">228</span> (m²)</div>
+                </div>
+                <div style="margin-top:20pt; background:#ffffff; padding:15pt 20pt; border-radius:14px; border:2px solid #c6f6d5; font-size:18pt;">
+                    <span class="text-bold color-green">💡 策略點評：</span><br>
+                    完全符合手繪題型，將未知大任務轉化為 4 個已知的暖身小正方形，全班都能秒懂！
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6: Strategy 2 -->
+    <div class="slide-page">
+        <div class="slide-header">
+            <div class="slide-title">✨ 組間互學：策略二 —— 容斥神解法（總和扣全域）</div>
+            <div class="slide-badge">大局觀・容斥原理</div>
+        </div>
+        <div class="grid-2">
+            <div class="card card-highlight">
+                <h3 style="color:var(--primary); font-size:26pt; margin-bottom:12pt;">【容斥原理（幾何重疊透視）】</h3>
+                <p class="text-lg">在 4 個 10×10 小正方形中，共有 8 個 1/4 圓扇形！</p>
+                <div style="background:#fff; padding:15pt 20pt; border-radius:14px; margin:15pt 0; border:2px solid #bee3f8;">
+                    <p class="text-bold color-blue" style="font-size:20pt;">🌈 幾何重疊現象：</p>
+                    <p style="font-size:19pt; line-height:1.6;">
+                        • 8 個 1/4 圓扇形鋪滿了整個 20×20 大正方形。<br>
+                        • 四個角落各花瓣區域被兩個扇形<span class="text-bold color-red">「重複覆蓋了兩次」</span>！
+                    </p>
+                </div>
+                <div class="formula-box color-red" style="font-size:20pt;">
+                    8 個 1/4 圓總和（即 2 個完整圓）－ 大正方形 ＝ 4 片花瓣！
+                </div>
+            </div>
+
+            <div class="card card-green">
+                <h3 style="color:var(--accent); font-size:26pt; margin-bottom:12pt;">【兩行算式快速解題】</h3>
+                <div style="font-size:19pt; line-height:1.7;">
+                    <div>1️⃣ <span class="text-bold">8 個 1/4 圓總面積（2個整圓）</span>：<br>
+                        2 × (10 × 10 × 3.14) ＝ <span class="color-blue text-bold">628</span> (m²)
+                    </div>
+                    <div style="margin-top:8pt;">2️⃣ <span class="text-bold">大正方形面積</span>：<br>
+                        20 × 20 ＝ <span class="color-green text-bold">400</span> (m²)
+                    </div>
+                    <div style="margin-top:14pt; padding-top:10pt; border-top:2px dashed #a0aec0; font-size:22pt;">
+                        🌟 <span class="text-bold">4 片花瓣總面積</span>：<br>
+                        628 － 400 ＝ <span class="color-red text-bold" style="font-size:28pt;">228</span> (m²)
+                    </div>
+                </div>
+                <div style="margin-top:15pt; background:#fff; padding:12pt 18pt; border-radius:14px; border:2px solid #c6f6d5; font-size:18pt;">
+                    <span class="text-bold color-green">💡 策略點評：</span><br>
+                    由「分割法」與「容斥法」雙向印證，答案皆為 228 平方公尺，體現數學之美！
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: Summary & Reflection -->
+    <div class="slide-page">
+        <div class="slide-header">
+            <div class="slide-title">🌟 第三關：導學統整與高光反思</div>
+            <div class="slide-badge">反思沉澱 8 分鐘</div>
+        </div>
+        <div class="grid-2">
+            <div class="card card-highlight">
+                <h3 style="color:var(--primary); font-size:26pt; margin-bottom:14pt;">🧠 幾何大師的思維躍遷</h3>
+                <ul style="margin-left:25pt; line-height:1.7; font-size:20pt;">
+                    <li><span class="text-bold">化繁為簡（分割法）</span>：將 20×20 大正方形拆解成 4 個熟悉的 10×10 小正方形。</li>
+                    <li><span class="text-bold">整體透視（容斥法）</span>：8 個扇形面積之和扣除正方形全域，重疊即是花瓣。</li>
+                    <li><span class="text-bold color-green">殊途同歸</span>：兩種方法皆算出 <span class="text-bold">228 m²</span>，展現數學的對稱與嚴謹！</li>
+                </ul>
+                <div class="formula-box" style="margin-top:20pt; text-align:center; font-size:22pt;">
+                    『分割小方現葉片，重疊扣全見真身！』
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 style="color:var(--accent); font-size:26pt; margin-bottom:14pt;">📝 學習單反思沉澱（請安靜書寫）</h3>
+                <div style="font-size:19pt; line-height:1.6; color:#4a5568;">
+                    <p class="text-bold" style="color:var(--primary); margin-bottom:8pt;">1. 我今天最棒的新發現：</p>
+                    <p style="background:#f7fafc; padding:12pt 16pt; border-radius:12px; margin-bottom:16pt;">（例如：我原本以為要算碎塊，後來發現切成 4 個小正方形每塊剛好有 1 朵花瓣...）</p>
+                    <p class="text-bold" style="color:var(--primary); margin-bottom:8pt;">2. 我想感謝同組夥伴：</p>
+                    <p style="background:#f7fafc; padding:12pt 16pt; border-radius:12px;">（例如：謝謝〇〇指出對角線，讓我看懂單葉片 28.5×2 就是花瓣...）</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
