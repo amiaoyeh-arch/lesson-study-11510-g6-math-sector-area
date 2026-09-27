@@ -1,0 +1,191 @@
+=== TABLE 0 ===
+  Cell (0,0) fill: BFBFBF | text: 教學設計理念
+  Cell (1,0) fill: FFFFFF | text: 〈蚊帳大使〉不是一篇讚美好人好事的文章。它真正值錢的地方在於
+=== TABLE 1 ===
+  Cell (0,0) fill: BFBFBF | text: 核心素養
+  Cell (0,1) fill: BFBFBF | text: 核心素養
+  Cell (1,0) fill: BFBFBF | text: 總綱
+  Cell (1,1) fill: BFBFBF | text: 領綱具體內涵
+  Cell (2,0) fill: auto | text: A2 系統思考與解決問題（主）
+  Cell (2,1) fill: auto | text: 國-E-A2 透過國語文學習，掌握文本要旨、發展學習及解決問
+  Cell (3,0) fill: auto | text: C2 人際關係與團隊合作（輔）
+  Cell (3,1) fill: auto | text: 國-E-C2 與他人互動時，能適切運用語文能力表達個人想法，
+=== TABLE 2 ===
+  Cell (0,0) fill: BFBFBF | text: 領域課程綱要
+  Cell (0,1) fill: BFBFBF | text: 領域課程綱要
+  Cell (1,0) fill: auto | text: 
+  Cell (1,1) fill: auto | text: 5-III-7 連結相關的知識和經驗，提出自己的觀點，評述文
+  Cell (2,0) fill: auto | text: Ad-III-2 篇章的大意、主旨、結構與寓意。
+  Cell (2,1) fill: auto | text: 1. 能依課文順序找出凱瑟琳的六項行動，排在學習單的行動軸上
+=== TABLE 3 ===
+  Cell (0,0) fill: A6A6A6 | text: 教材組織與學生分析
+  Cell (1,0) fill: auto | text: 一、文本結構分析：(用圖形和文字表示)
+
+本課十段，是一條「
+  Cell (2,0) fill: auto | text: 二、學生可能面臨學習的困難及發現：
+1. 把「行動」和「結果
+  Cell (3,0) fill: auto | text: 三、特殊學生特性描述：
+〔待補：學習停滯、超前、具潛力、幾乎
+=== TABLE 4 ===
+  Cell (0,0) fill: auto | text: 教學活動的教育四要素
+  Cell (0,1) fill: auto | text: 項目
+  Cell (0,2) fill: auto | text: 內容
+  Cell (1,0) fill: auto | text: 教師
+  Cell (1,1) fill: auto | text: 教學過程的構建
+  Cell (1,2) fill: auto | text: 路徑：默讀圈行動—排出行動軸—Pair 補漏—拋出「只能留三
+  Cell (2,0) fill: auto | text: 教師
+  Cell (2,1) fill: auto | text: 師生問題的生成
+  Cell (2,2) fill: auto | text: 預想學生會提出的問題：
+1. 蓋茲捐錢算不算她做的事？
+2.
+  Cell (3,0) fill: auto | text: 教師
+  Cell (3,1) fill: auto | text: 教學活動的開展
+  Cell (3,2) fill: auto | text: 默讀劃記 → 學習單行動軸 → Pair 對照補漏 → 個人
+  Cell (4,0) fill: auto | text: 教師
+  Cell (4,1) fill: auto | text: 教學語言的優化
+  Cell (4,2) fill: auto | text: 拋出課題後即停止說話，把課文交還給學生；不使用「很好」「答對
+  Cell (5,0) fill: auto | text: 教材
+  Cell (5,1) fill: auto | text: 教具的使用策略
+  Cell (5,2) fill: auto | text: 小白板一組一片，寫「我們留下的三件＋每件的課文段落」，張貼黑
+  Cell (6,0) fill: auto | text: 教材
+  Cell (6,1) fill: auto | text: 教材的使用價值
+  Cell (6,2) fill: auto | text: 陳麗雲寫的是真人真事（凱瑟琳，只要蚊帳協會，2018 年來臺
+  Cell (7,0) fill: auto | text: 教材
+  Cell (7,1) fill: auto | text: 教學目標的設計
+  Cell (7,2) fill: auto | text: 目標訂為「刪三件並舉出課文依據，說出留下的行動之間有什麼關聯
+  Cell (8,0) fill: auto | text: 教材
+  Cell (8,1) fill: auto | text: 學科作業的設計
+  Cell (8,2) fill: auto | text: 學習單一人一份、協同化：正面是「行動軸」六格（依序填凱瑟琳做
+  Cell (9,0) fill: auto | text: 學生
+  Cell (9,1) fill: auto | text: 學生的心智水平
+  Cell (9,2) fill: auto | text: 已會：依序摘取事件、找出段落關鍵句、寫出全文大意（四年級與本
+  Cell (10,0) fill: auto | text: 學生
+  Cell (10,1) fill: auto | text: 學習方式的選擇
+  Cell (10,2) fill: auto | text: 先個人默讀劃記（保障每個人都有自己的答案才進協同）→ Pai
+  Cell (11,0) fill: auto | text: 環境
+  Cell (11,1) fill: auto | text: 教學情景的創設
+  Cell (11,2) fill: auto | text: ㄇ字型加四人組座位：ㄇ字型讓全班串連時彼此看得見臉，四人組讓
+  Cell (12,0) fill: auto | text: 環境
+  Cell (12,1) fill: auto | text: 課程資源的開發
+  Cell (12,2) fill: auto | text: 課本第 8～17 頁與習作 P.11 的「想法／行動」流程圖
+=== TABLE 5 ===
+  Cell (0,0) fill: A6A6A6 | text: 各節次學習活動設計的重點（本次公開課為第四節）
+  Cell (1,0) fill: auto | text: 本課共 6 節。第 1 節朗讀課文與生字詞語（含「募集、捐贈
+=== TABLE 6 ===
+  Cell (0,0) fill: auto | text: 流程
+  Cell (0,1) fill: auto | text: 教學活動內容
+  Cell (0,2) fill: auto | text: 教師支援、學習引導
+  Cell (0,3) fill: auto | text: 時間
+  Cell (1,0) fill: auto | text: 導入與發現
+（傾聽）
+  Cell (1,1) fill: auto | text: 1. 默讀圈行動（3 分）
+各自默讀課文第 2～9 段，把「
+  Cell (1,2) fill: auto | text: 說完題目即停止說話，不解釋課文。
+巡走，觀察誰只圈到三、四件
+  Cell (1,3) fill: auto | text: 10 分
+  Cell (2,0) fill: auto | text: 探究與深化
+（串連）
+  Cell (2,1) fill: auto | text: 1. 各自刪三件（4 分）
+在學習單反面寫下要刪掉的三件，每
+  Cell (2,2) fill: auto | text: 巡走，不當場糾正任何一種刪法。
+記下三種素材：①刪法完全相反
+  Cell (2,3) fill: auto | text: 20 分
+  Cell (3,0) fill: auto | text: 挑戰與聚斂
+（串連＋回歸）
+  Cell (3,1) fill: auto | text: 1. 白板張貼與音讀分享（4 分）
+各組把小白板貼到黑板並排
+  Cell (3,2) fill: auto | text: 【轉引】「這一組留下的是①③⑥。還有沒有不一樣的留法？」（連
+  Cell (3,3) fill: auto | text: 10 分
+=== TABLE 7 ===
+  Cell (0,0) fill: auto | text: 預想的學生回應
+  Cell (0,1) fill: auto | text: 判讀
+  Cell (0,2) fill: auto | text: 策略
+  Cell (0,3) fill: auto | text: 教師台詞
+  Cell (1,0) fill: auto | text: （講錯）「我要刪掉『比爾．蓋茲捐三百萬』，因為那個是最後才發
+  Cell (1,1) fill: auto | text: 把「別人被打動後的結果」當成凱瑟琳的行動，行動與結果的界線還
+  Cell (1,2) fill: auto | text: 提示
+  Cell (1,3) fill: auto | text: 「回到題目。題目說的是誰做的事？」（不說「錯了」，反覆要求回
+  Cell (2,0) fill: auto | text: （講錯）「寄獎狀給貝克漢可以刪，那只是說謝謝而已。」
+  Cell (2,1) fill: auto | text: 讀到了第 7 段的表面動作，沒看見獎狀被貼上網站之後引起的關
+  Cell (2,2) fill: auto | text: 深究
+  Cell (2,3) fill: auto | text: 「貝克漢收到獎狀以後做了什麼？讀給我們聽。」
+  Cell (3,0) fill: auto | text: （沉默）被指名後低頭不語，手放在課本上沒有動。
+  Cell (3,1) fill: auto | text: 可能是還沒想完，也可能是不確定自己的刪法能不能講。等待，不催
+  Cell (3,2) fill: auto | text: 轉問
+  Cell (3,3) fill: auto | text: 「你需要想一下是嗎？那你可以先找人嗎？」（把求援的主動權交給
+  Cell (4,0) fill: auto | text: （離題）「我覺得非洲人很可憐，我們應該要捐錢給他們。」
+  Cell (4,1) fill: auto | text: 情感被課文帶起來了，但已經離開文本，退回感想。
+  Cell (4,2) fill: auto | text: 提示（回歸文本）
+  Cell (4,3) fill: auto | text: 「回到課文。凱瑟琳做的第一件事是什麼？」
+  Cell (5,0) fill: auto | text: （答對但停在表層）「因為一件帶出一件啊。」
+  Cell (5,1) fill: auto | text: 已經摸到遞進關係，但說不出是靠什麼帶出來的。
+  Cell (5,2) fill: auto | text: 深究
+  Cell (5,3) fill: auto | text: 「哪一件帶出哪一件？指給我看。」
+=== TABLE 8 ===
+  Cell (0,0) fill: auto | text: 授課老師
+  Cell (0,1) fill: auto | text: 〔待補：姓名〕
+  Cell (0,2) fill: auto | text: 
+  Cell (1,0) fill: auto | text: 觀課班級
+  Cell (1,1) fill: auto | text: 〔待補：學校〕 五年〇班
+  Cell (1,2) fill: auto | text: 
+  Cell (2,0) fill: auto | text: 觀課日期
+  Cell (2,1) fill: auto | text: 〔待補：〇年〇月〇日（星期〇）第〇節〕
+  Cell (2,2) fill: auto | text: 
+  Cell (3,0) fill: auto | text: 科目單元
+  Cell (3,1) fill: auto | text: 國語文／第一單元 第 1 課〈蚊帳大使〉第 4 節（內容深究
+  Cell (3,2) fill: auto | text: 
+  Cell (4,0) fill: auto | text: 觀課教師
+學校
+  Cell (4,1) fill: auto | text: 
+  Cell (4,2) fill: auto | text: 
+  Cell (5,0) fill: auto | text: 觀課教師
+姓名
+  Cell (5,1) fill: auto | text: 
+  Cell (5,2) fill: auto | text: 
+=== TABLE 9 ===
+  Cell (0,0) fill: auto | text: 面向
+  Cell (0,1) fill: auto | text: 1.全班學習氣氛
+  Cell (0,2) fill: auto | text: 2.學生學習歷程
+  Cell (0,3) fill: auto | text: 3.學生學習結果
+  Cell (1,0) fill: auto | text: 要項
+  Cell (1,1) fill: auto | text: 1-1是否有安心學習的環境？ 
+1-2是否有聆聽學習的環境？
+  Cell (1,2) fill: auto | text: 2-1學生學習動機是否持續？ 
+2-2學生是否相互關注與傾聽
+  Cell (1,3) fill: auto | text: 3-1學生學習是否成立？如何發生？何時發生？ 
+3-2學生學
+  Cell (2,0) fill: auto | text: 學生
+學習紀錄
+  Cell (2,1) fill: auto | text: 
+  Cell (2,2) fill: auto | text: 
+  Cell (2,3) fill: auto | text: 
+  Cell (3,0) fill: auto | text: 觀課者學習
+與
+收穫
+  Cell (3,1) fill: auto | text: 
+  Cell (3,2) fill: auto | text: 
+  Cell (3,3) fill: auto | text: 
+=== TABLE 10 ===
+  Cell (0,0) fill: auto | text: ① （第　　段）
+  Cell (0,1) fill: auto | text: ② （第　　段）
+  Cell (0,2) fill: auto | text: ③ （第　　段）
+  Cell (1,0) fill: auto | text: ④ （第　　段）
+  Cell (1,1) fill: auto | text: ⑤ （第　　段）
+  Cell (1,2) fill: auto | text: ⑥ （第　　段）
+=== TABLE 11 ===
+  Cell (0,0) fill: auto | text: 我要刪掉的
+  Cell (0,1) fill: auto | text: 理由：課文第＿段說……
+  Cell (0,2) fill: auto | text: 小組討論後我改變了什麼
+  Cell (1,0) fill: auto | text: 1.
+  Cell (1,1) fill: auto | text: 
+  Cell (1,2) fill: auto | text: 
+  Cell (2,0) fill: auto | text: 2.
+  Cell (2,1) fill: auto | text: 
+  Cell (2,2) fill: auto | text: 
+  Cell (3,0) fill: auto | text: 3.
+  Cell (3,1) fill: auto | text: 
+  Cell (3,2) fill: auto | text: 
+=== TABLE 12 ===
+  Cell (0,0) fill: auto | text: 
+=== TABLE 13 ===
+  Cell (0,0) fill: auto | text: 
